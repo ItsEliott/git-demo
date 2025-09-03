@@ -5,3 +5,7 @@ class Math():
             raise ValueError("Veuillez entrer un nombre positif")
         else:
             return number**(1/2)
+        
+m = Math()
+
+print(m.square_root(12))
